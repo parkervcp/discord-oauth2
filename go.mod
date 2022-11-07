@@ -2,10 +2,7 @@ module github.com/parkervcp/discord-oauth2
 
 go 1.19
 
-require (
-	github.com/ravener/discord-oauth2 v0.0.0-20220615092331-f6a9839c223e
-	golang.org/x/oauth2 v0.1.0
-)
+require golang.org/x/oauth2 v0.1.0
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect

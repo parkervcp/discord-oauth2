@@ -5,12 +5,12 @@
 package main
 
 import (
-	"github.com/ravener/discord-oauth2"
+	"context"
+	"github.com/parkervcp/discord-oauth2"
 	"golang.org/x/oauth2"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"context"
 )
 
 // This is the state key used for security, sent in login, validated in callback.
